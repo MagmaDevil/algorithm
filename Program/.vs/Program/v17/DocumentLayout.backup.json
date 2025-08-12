@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Program\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCE33AB4-05BC-4B6D-9549-F3BF92C34474}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CCE33AB4-05BC-4B6D-9549-F3BF92C34474}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8211FF00-EF3F-457B-93AD-1238F5CFCC3E}|..\\Class1th (Asymptotic Notation)\\Class1th (Asymptotic Notation).vcxproj|C:\\Users\\Administrator\\Desktop\\Class1th (Asymptotic Notation)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Program\\Program.cpp",
+              "RelativeDocumentMoniker": "Program.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Program\\Program.cpp",
+              "RelativeToolTip": "Program.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-12T11:11:46.721Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Class1th (Asymptotic Notation)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class1th (Asymptotic Notation)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Class1th (Asymptotic Notation)\\Source.cpp",
+              "RelativeToolTip": "..\\Class1th (Asymptotic Notation)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-12T12:19:19.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
