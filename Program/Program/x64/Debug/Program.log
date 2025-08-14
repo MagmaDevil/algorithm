@@ -1,2 +1,2 @@
 ﻿  Program.cpp
-C:\Users\Administrator\Desktop\algorithm\Program\Program.cpp(15,23): error C2106: '=': 왼쪽 피연산자는 l-value이어야 합니다.
+  Program.vcxproj -> C:\Users\Administrator\Desktop\algorithm\Program\x64\Debug\Program.exe
