@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bc680c19-a7f7-4c57-b8ff-86aebadc930f}</ProjectGuid>
+    <ProjectGuid>{f9817740-5cd4-4524-a4b2-45ce3f9f9af7}</ProjectGuid>
     <RootNamespace>Class5thInsertSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

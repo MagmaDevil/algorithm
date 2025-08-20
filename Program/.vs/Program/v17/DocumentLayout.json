@@ -1,13 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\algorithm\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\USERK\\Desktop\\algorithm\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCE33AB4-05BC-4B6D-9549-F3BF92C34474}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\algorithm\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CCE33AB4-05BC-4B6D-9549-F3BF92C34474}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\Class1th (Asymptotic Notation)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5AFBAC20-C901-48B8-AEFB-329E878C9C02}|Program.vcxproj|C:\\Users\\USERK\\Desktop\\algorithm\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AFBAC20-C901-48B8-AEFB-329E878C9C02}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,31 +20,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\algorithm\\Program\\Program.cpp",
+              "DocumentMoniker": "C:\\Users\\USERK\\Desktop\\algorithm\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\algorithm\\Program\\Program.cpp",
+              "ToolTip": "C:\\Users\\USERK\\Desktop\\algorithm\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACcAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-12T11:11:46.721Z",
+              "WhenOpened": "2025-08-12T11:11:52.229Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Class1th (Asymptotic Notation)\\Source.cpp",
-              "RelativeDocumentMoniker": "..\\..\\Class1th (Asymptotic Notation)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Class1th (Asymptotic Notation)\\Source.cpp",
-              "RelativeToolTip": "..\\..\\Class1th (Asymptotic Notation)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-12T12:19:19.955Z"
             }
           ]
         }

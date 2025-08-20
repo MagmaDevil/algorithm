@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f19ff12d-49a6-447a-8b8f-37b16bccb0e6}</ProjectGuid>
+    <ProjectGuid>{883e2ee7-bea9-4e2b-a051-64f5419f8f5b}</ProjectGuid>
     <RootNamespace>Class4thSelectSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

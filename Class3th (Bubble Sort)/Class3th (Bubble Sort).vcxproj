@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{85a221ef-21d3-4169-a885-d61d988f9234}</ProjectGuid>
+    <ProjectGuid>{70b3dd40-f7ca-40b9-81be-195d065f5f1c}</ProjectGuid>
     <RootNamespace>Class3thBubbleSort</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
