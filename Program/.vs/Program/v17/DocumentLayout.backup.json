@@ -5,9 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5AFBAC20-C901-48B8-AEFB-329E878C9C02}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\algorithm\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{5AFBAC20-C901-48B8-AEFB-329E878C9C02}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E47306A-38EC-4028-879E-EA04CF21CC86}|..\\Class15th (Depth First Search)\\Class15th (Depth First Search).vcxproj|C:\\Users\\Administrator\\Desktop\\algorithm\\Class15th (Depth First Search)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,7 +24,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\algorithm\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-12T11:11:52.229Z",
               "IsPinned": true,
@@ -36,19 +33,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\algorithm\\Class15th (Depth First Search)\\Source.cpp",
-              "RelativeDocumentMoniker": "..\\Class15th (Depth First Search)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\algorithm\\Class15th (Depth First Search)\\Source.cpp",
-              "RelativeToolTip": "..\\Class15th (Depth First Search)\\Source.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-08-27T12:31:18.702Z",
-              "EditorCaption": ""
             }
           ]
         }

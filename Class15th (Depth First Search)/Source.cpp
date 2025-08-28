@@ -9,9 +9,7 @@ using namespace std;
 template<typename T>
 class Graph
 {
-private:
-
-	unordered_set<T> visited;
+private:	
 	unordered_map<T, vector<T>> adjacencyList;
 
 public:
@@ -23,6 +21,8 @@ public:
 
 	void search(const T& start)
 	{
+		unordered_set<T> visited;
+		
 		if (visited.count(start))
 		{
 			return;
