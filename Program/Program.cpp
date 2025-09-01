@@ -1,77 +1,96 @@
 ﻿#include <iostream>
-#include <queue>
 #include <vector>
-#include <unordered_set>
-#include <unordered_map>
+
+#define INFINITY 10000000
 
 using namespace std;
 
-template <typename T>
-class Graph
+class Dikstra
 {
 private:
-	unordered_set<T> vertices;
-	unordered_map<T, int> degree;
-	unordered_map<T, vector<T>> adjacencyList;
+	vector<vector<int>> adjMatrix;
 
+	vector<int> distance;
+
+	vector<int> visited;
+	
 public:
-	void insert(const T& i, const T& j)
+	Dikstra()
 	{
-		adjacencyList[i].push_back(j);
-
-		degree[j]++;
-
-		vertices.insert(i);
-		vertices.insert(j);
-
-		if (degree.count(i) == false)
+		for (int i = 0; i < 5; i++)
 		{
-			degree[i] = 0;
+			adjMatrix[i][i] = 0;
 		}
+
+		for (int i = 0; i < 5; i++)
+		{			
+			distance[i] = INFINITY;			
+		}			
 	}
 
-	void sort()
+	void insert(int i, int j, int weight)
 	{
-
+		adjMatrix[i][j] = weight;
+		adjMatrix[j][i] = weight;
 	}
 
-};
+	void resize(int node)
+	{
+		int newSize = node + 1;
 
+		adjMatrix.resize(newSize);
+
+		for(int i = 0; i < newSize; i++)
+		{
+			adjMatrix[i].resize(newSize);
+		}
+
+		distance.resize(newSize);
+
+		visited.resize(newSize);
+	}
+
+	
+};
 
 int main()
 {
-#pragma region 위상 정렬
-	// 병합 그래프에 존재하는 각 정점들의 선행 순서를 지키며,
-	// 모든 정점을 차례대로 진행하는 방식의 정렬입니다.
+#pragma region 다익스트라 알고리즘
+	// 시작점으로부터 모든 노드까지의 최소 거리를 구해주는
+	// 알고리즘입니다.
 
-	// 사이클이 발생하는 경우 위상 정렬을 수행할 수 없습니다.
+	// 1. 거리 배열에서 weight[시작 노드]의 값들로 초기화합니다.
 
-	// DAG(Directed Acyclic Graph) : 사이클이 존재하지 않는 그래프
+	// 2. 시작점을 방문 처리합니다.
 
-	// 시간 복잡도 : O(V + E)
+	// 3. 거리 배열에서 최소 비용 노드를 찾고 방문 처리합니다.
 
-	// 위상 정렬하는 방법
+    // 4. 최소 비용 노드를 거쳐갈 지 고민해서 거리 배열을 갱신합니다.
+	// 단, 이미 방문한 노드는 제외합니다.
 
-	// 1. 진입 차수가 0인 정점을 Queue에 삽입합니다.
+	// 5. 모든 노드를 방문할 때까지 3번 ~ 4번을 반복합니다.
 
-	// 2. Queue에서 원소를 꺼내 연결된 모든 간서을 제거합니다.
+	// 방문하지 않은 노드 중에서 가장 작은 거리를 가진 노드를
+	// 방문하고, 그 노드와 연결된 다른 노드까지의 거리를 계산합니다.
 
-	// 3. 간선 제거 이후에 진입 차수가 0이 된 정점을 Queue에 삽입합니다.
+	Dikstra dikstra;
 
-	// 4. Queue가 비어있을 때까지 2번 ~ 3번 작업을 반복적으로 수행합니다.
+	dikstra.insert(1, 2, 2);
+	dikstra.insert(1, 3, 5);
+	dikstra.insert(1, 4, 1);
 
-	Graph<int> graph;
+	dikstra.insert(2, 3, 3);
+	dikstra.insert(2, 4, 2);
+	
+	dikstra.insert(3, 4, 3);
+	dikstra.insert(3, 5, 1);
+	dikstra.insert(3, 6, 5);
 
-	graph.insert(1, 2);
-	graph.insert(1, 5);
+	dikstra.insert(4, 5, 1);
 
-	graph.insert(2, 3);
-	graph.insert(3, 4);
+	dikstra.insert(5, 6, 1);
 
-	graph.insert(4, 6);
 
-	graph.insert(5, 6);
-	graph.insert(6, 7);
 
 #pragma endregion
 
