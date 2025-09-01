@@ -3,16 +3,17 @@
 #include <unordered_set>
 #include <unordered_map>
 
-
 using namespace std;
 
 template<typename T>
 class Graph
 {
-private:	
+private:
+	unordered_set<T> visited;
 	unordered_map<T, vector<T>> adjacencyList;
 
 public:
+
 	void insert(const T& i, const T& j)
 	{
 		adjacencyList[i].push_back(j);
@@ -21,8 +22,6 @@ public:
 
 	void search(const T& start)
 	{
-		unordered_set<T> visited;
-		
 		if (visited.count(start))
 		{
 			return;
@@ -44,24 +43,27 @@ public:
 
 int main()
 {
-#pragma region 깊이 우선 탐색(Depth first search)
-
-	// 그래프에서 한 방향으로 갈 수 있을 만큼 깊이 들어갔다가, 더 이상 갈
+#pragma region 깊이 우선 탐색	 (Depth First Search)
+	// 그래프에서 한 방향으로 갈 수 있을 만큼 깊이 들어갔다가, 더 이상 갈 
 	// 수 없으면 다시 돌아와서 다른 경로를 탐색하는 방법입니다.
 
 	Graph<char> graph;
 
 	graph.insert('A', 'B');
+
 	graph.insert('A', 'C');
+
 	graph.insert('B', 'D');
+
 	graph.insert('B', 'E');
+
 	graph.insert('C', 'F');
+
 	graph.insert('F', 'G');
 
 	graph.search('A');
 
 #pragma endregion
-
 
 	return 0;
 }
