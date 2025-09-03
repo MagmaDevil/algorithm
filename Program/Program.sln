@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class16th (Breadth First Se
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "class17th (Topology Sort)", "..\class17th (Topology Sort)\class17th (Topology Sort).vcxproj", "{F9829D77-4428-4637-BA10-24CF4BE85061}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class18th (Dijkstra)", "..\Class18th (Dijkstra)\Class18th (Dijkstra).vcxproj", "{D6925680-24A9-4F8C-93F9-D5C9D5B50CF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{F9829D77-4428-4637-BA10-24CF4BE85061}.Release|x64.Build.0 = Release|x64
 		{F9829D77-4428-4637-BA10-24CF4BE85061}.Release|x86.ActiveCfg = Release|Win32
 		{F9829D77-4428-4637-BA10-24CF4BE85061}.Release|x86.Build.0 = Release|Win32
+		{D6925680-24A9-4F8C-93F9-D5C9D5B50CF3}.Debug|x64.ActiveCfg = Debug|x64
+		{D6925680-24A9-4F8C-93F9-D5C9D5B50CF3}.Debug|x64.Build.0 = Debug|x64
+		{D6925680-24A9-4F8C-93F9-D5C9D5B50CF3}.Debug|x86.ActiveCfg = Debug|Win32
+		{D6925680-24A9-4F8C-93F9-D5C9D5B50CF3}.Debug|x86.Build.0 = Debug|Win32
+		{D6925680-24A9-4F8C-93F9-D5C9D5B50CF3}.Release|x64.ActiveCfg = Release|x64
+		{D6925680-24A9-4F8C-93F9-D5C9D5B50CF3}.Release|x64.Build.0 = Release|x64
+		{D6925680-24A9-4F8C-93F9-D5C9D5B50CF3}.Release|x86.ActiveCfg = Release|Win32
+		{D6925680-24A9-4F8C-93F9-D5C9D5B50CF3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
